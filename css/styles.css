@@ -1,0 +1,126 @@
+body {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.18vw;
+
+}
+
+
+header {
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.flexItem {
+    padding: 5%;
+
+    position: relative;
+}
+
+
+.flexContainerA {
+     display: flex;
+     margin: auto;
+     width: 70%;  
+     height: 95vh;
+     align-items: center;
+
+     aspect-ratio: 2 / 1;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1.18vw;
+    line-height: 2.5;
+    margin-top: 20%;
+    width: 65%;
+    
+}
+
+.sedan-button {
+     color: hsl(31, 77%, 52%);
+}
+
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+.sedan-button:hover {
+    background-color: hsl(31, 77%, 52%);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+
+.suv-button:hover {
+    background-color: hsl(184, 100%, 22%);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+
+.luxury-button:hover {
+    background-color: hsl(179, 100%, 13%);
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .flexContainerA {
+        flex-direction: column;
+        margin-top: 10%;
+        width: 40%;
+    }
+    .flexItem {
+        aspect-ratio: 7 / 10;
+        font-size: 10px;
+        padding: 12%
+    }
+    button {
+        font-size: 10px;
+        width: 50%
+    }
+    p { 
+        width: 85%;
+    }
+    .sedans { border-radius: 15px 15px 0 0}
+    .luxury { border-radius: 0 0 15px 15px}
+    
+
+
+  
+}
