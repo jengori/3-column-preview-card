@@ -15,5 +15,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/jengori/3-column-preview-card
+- Live Site URL: https://jengori.github.io/3-column-preview-card
